@@ -1,0 +1,15 @@
+
+- Components are the "beating heart" of React applications
+	- Developer job: create components and render
+- React uses JSX to help create React components
+	- JSX looks like HTML
+	- Is transpiled by Babel to appropriate Javascript
+- In previous versions of React
+	- One **must**  `import React from react`
+	- No longer necessary beginning with React 17.x
+- In a nutshell,
+	- A (React) component is a function that
+		- Returns a value 
+		- Consisting of "HTML components"
+			- Actually JSX that is transpiled to the appropriate code to render the HTML in `index.html`
+			- 
