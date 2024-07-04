@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+
+# Ignore files for Obsidian
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/config
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/graph.json
+!.obsidian/hotkeys.json
