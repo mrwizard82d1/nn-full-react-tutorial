@@ -1,0 +1,11 @@
+- What is React?
+	- A JavaScript library to
+	- Create web sites
+	- Allows us to create single page applications (SPAs)
+- SPAs
+	- Request to web server for **single page**
+	- React then manages the entire application
+		- Inside the browser
+		- Manages page contents
+		- Contexts server(s) as needed
+- Project: "The Dojo Blog"
