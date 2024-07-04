@@ -1,13 +1,15 @@
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <div className="content">
-        <h1>App Component</h1>
-      </div>
-    </div>
-  );
+    const title = "Welcome to the New Blog";
+
+    return (
+        <div className="App">
+            <div className="content">
+                <h1>{ title }</h1>
+            </div>
+        </div>
+    );
 }
 
 export default App;
