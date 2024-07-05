@@ -1,0 +1,19 @@
+- Content currently hard-coded
+	- String "App Component"
+- But we can move that to a variable, e. g. `title`
+	- Include the value of variables in the generated HTML by
+		- Enclosing the variable in curly braces; e. g., `{ title }`
+- If one wants to output a variable whose value is an integer
+	- Same thing: `{ lines }`
+	- One can surround the curly braces with text
+		- `Liked { likes } times`
+		- React will "splice" the value of the variable, `likes`, into the string to replace `{ likes }`
+- Attempting to render a Javascript object to the page **fails**
+	- Message: "Objects are not valid as a React child..."
+- One can render values of type:
+	- `Integer`
+	- `String`
+	- `Array`
+	- Javascript expressions that evaluate to one of the previous types
+- In addition, one can use Javascript values as HTML **attributes**
+	- For example, `<a href={ link }>Google Site</a>`
